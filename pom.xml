@@ -67,7 +67,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Main-Class>org.example.Main</Main-Class>
+                            <Main-Class>com.example.Main</Main-Class>
                         </manifestEntries>
                     </archive>
                 </configuration>
