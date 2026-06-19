@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>DevOpsExp2</artifactId>
+    <artifactId>Exp2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -28,13 +28,8 @@
         </dependency>
     </dependencies>
 
-
     <build>
-
-
-
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -60,6 +55,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -67,15 +63,13 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Main-Class>com.example.Main</Main-Class>
+                            <Main-Class>org.example.Main</Main-Class>
                         </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
-
 
 
 
